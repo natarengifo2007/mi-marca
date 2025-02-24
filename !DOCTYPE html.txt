@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Marca de gafas de sol sostenibles. Conoce nuestras colecciones y cómo apoyamos el medio ambiente.">
+    <title>Gafas de Sol Sostenibles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#">Solea Gafas</a>
+            </div>
+            <ul>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#collections">Colecciones</a></li>
+                <li><a href="#sustainability">Sostenibilidad</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Gafas de Sol Sostenibles para un Futuro Brillante</h1>
+            <p>Descubre nuestras colecciones de gafas de sol y cómo contribuimos al cuidado del medio ambiente.</p>
+            <a href="#collections" class="btn-primary">Explora nuestras colecciones</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="section-title">
+            <h2>Sobre Nosotros</h2>
+            <p>En Solea Gafas, nuestra misión es ofrecer gafas de sol modernas, elegantes y 100% sostenibles. Cada par está hecho con materiales reciclados y procesos responsables con el planeta.</p>
+        </div>
+    </section>
+
+    <section id="collections">
+        <div class="section-title">
+            <h2>Colecciones de Gafas de Sol</h2>
+        </div>
+        <div class="collection-item">
+            <h3>Clásicas</h3>
+            <p>Estilo atemporal con materiales reciclados, perfectas para cualquier ocasión.</p>
+        </div>
+        <div class="collection-item">
+            <h3>De Alto Rendimiento</h3>
+            <p>Gafas deportivas con lentes especiales para protección UV, ideales para actividades al aire libre.</p>
+        </div>
+        <div class="collection-item">
+            <h3>De Diseño Único</h3>
+            <p>Gafas de sol exclusivas, con un enfoque en tendencias y responsabilidad ambiental.</p>
+        </div>
+    </section>
+
+    <section id="sustainability">
+        <div class="section-title">
+            <h2>Sostenibilidad</h2>
+        </div>
+        <div class="sustainability-content">
+            <p>Creemos que la moda debe ser responsable. Nuestras gafas de sol están hechas con materiales reciclados, ecológicos y biodegradables. Además, nuestro proceso de fabricación minimiza el impacto ambiental. Al elegir Solea, estás contribuyendo a un futuro más verde.</p>
+            <ul>
+                <li><strong>Materiales Reciclados:</strong> Utilizamos plásticos reciclados y biopolímeros para crear nuestras gafas.</li>
+                <li><strong>Packaging Sostenible:</strong> Empaque hecho de materiales reciclados y reciclables.</li>
+                <li><strong>Producción Responsable:</strong> En nuestra fábrica implementamos prácticas de bajo impacto ambiental.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="section-title">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna pregunta? ¡Contáctanos!</p>
+        </div>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Tu nombre" required>
+            <input type="email" name="email" placeholder="Tu correo electrónico" required>
+            <textarea name="message" placeholder="Tu mensaje" required></textarea>
+            <button type="submit" class="btn-primary">Enviar mensaje</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Solea Gafas - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>

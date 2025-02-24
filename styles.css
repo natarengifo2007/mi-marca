@@ -1,0 +1,156 @@
+
+/* Resetear estilos predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body y Fuente General */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header y Navegación */
+header {
+    background-color: #2d3a3f;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #0b4a5d;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #f39c12;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #e67e22;
+}
+
+/* Secciones */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section-title h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.section-title p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Colecciones */
+.collection-item {
+    margin: 20px 0;
+}
+
+.collection-item h3 {
+    font-size: 2rem;
+    color: #2d3a3f;
+}
+
+.collection-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Sostenibilidad */
+.sustainability-content {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.sustainability-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sustainability-content ul li {
+    margin: 10px 0;
+}
+
+/* Contacto */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #2d3a3f;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #34495e;
+}
+
+/* Footer */
+footer {
+    background-color: #2d3a3f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
